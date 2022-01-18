@@ -25,7 +25,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/sti
 			{
 			name : 'Men', //Attribute label
 			title : {
-				media : {word : 'person'<br/> 'male'}, //Name of the category presented in the task.
+				media : {word : 'person'+ \n+ 'male'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
