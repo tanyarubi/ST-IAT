@@ -39,38 +39,38 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},	
 			attribute1 : 
 			{
-				name : 'Unpleasant', //Attribute name to be used for feedback and logging
+				name : 'Men', //Attribute name to be used for feedback and logging
 				title : {
 					media : {word : 'Unpleasant'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
-				media : [ //Stimuli
-					{word: 'Bomb'},
-					{word: 'Abuse'},
-					{word: 'Sadness'},
-					{word: 'Pain'},
-					{word: 'Poison'},
-					{word: 'Grief'}
+			media : [ //Stimuli //male names
+				{word: 'brian'},
+				{word: 'mathew'},
+				{word: 'paul'},
+				{word: 'scott'},
+				{word: 'eric'},
+				{word: 'greg'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
 			},
 			attribute2 : 
 			{
-				name : 'Pleasant', //Attribute name to be used for feedback and logging
+				name : 'Women', //Attribute name to be used for feedback and logging
 				title : {
 					media : {word : 'Pleasant'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
-				media : [ //Stimuli
-					{word: 'Paradise'},
-					{word: 'Pleasure'},
-					{word: 'Cheer'},
-					{word: 'Wonderful'},
-					{word: 'Splendid'},
-					{word: 'Love'}
+			media : [ //Stimuli //female names
+				{word: 'beth'},
+				{word: 'lisa'},
+				{word: 'meg'},
+				{word: 'marcia'},
+				{word: 'elaine'},
+				{word: 'gwen'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
