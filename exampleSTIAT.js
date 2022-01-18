@@ -23,38 +23,38 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 
   		attribute1 : 
 			{
-			name : 'Unpleasant', //Attribute label
+			name : 'Men', //Attribute label
 			title : {
-				media : {word : 'Negative'}, //Name of the category presented in the task.
+				media : {word : 'person\n male'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
-			media : [ //Stimuli
-				{word: 'Bomb'},
-				{word: 'Abuse'},
-				{word: 'Sadness'},
-				{word: 'Pain'},
-				{word: 'Poison'},
-				{word: 'Grief'}
+			media : [ //Stimuli //male names
+				{word: 'brian'},
+				{word: 'mathew'},
+				{word: 'paul'},
+				{word: 'scott'},
+				{word: 'eric'},
+				{word: 'greg'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 		attribute2 : 
 			{
-			name : 'Pleasant', //Attribute label
+			name : 'Women', //Attribute label
 			title : {
-				media : {word : 'Positive'}, //Name of the category presented in the task.
+				media : {word : 'female'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
-			media : [ //Stimuli
-				{word: 'Paradise'},
-				{word: 'Pleasure'},
-				{word: 'Cheer'},
-				{word: 'Wonderful'},
-				{word: 'Splendid'},
-				{word: 'Love'}
+			media : [ //Stimuli //female names
+				{word: 'beth'},
+				{word: 'lisa'},
+				{word: 'meg'},
+				{word: 'marcia'},
+				{word: 'elaine'},
+				{word: 'gwen'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
