@@ -15,7 +15,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/sti
     			{word : 'humanity'}, 
     			{word : 'person'}, 
     			{word : 'individual'}, 
-    			{ : 'human'}
+    			{word : 'human'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
