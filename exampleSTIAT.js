@@ -61,7 +61,7 @@ define(['pipAPI', 'https://tanyarubi.github.io/ST-IAT/qstiat6.js'], function(API
 			},
 
   base_url : {//Where are your images at?
-    image : 'https://baranan.github.io/minno-tasks/images/'
+    image : 'https://tanyarubi.github.io/ST_IAT/'
   }}
   );
   });
