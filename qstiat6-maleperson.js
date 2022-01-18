@@ -41,7 +41,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			{
 				name : 'Men', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : 'Unpleasant'}, //Name of the category presented in the task.
+					media : {word : 'Male'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
@@ -60,7 +60,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			{
 				name : 'Women', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : 'Pleasant'}, //Name of the category presented in the task.
+					media : {word : 'Female'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
