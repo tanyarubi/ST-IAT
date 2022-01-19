@@ -23,7 +23,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 
   		attribute1 : 
 			{
-			name : 'Men', //Attribute label
+			name : 'male', //Attribute label
 			title : {
 				media : {word :  "male"}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
@@ -35,14 +35,24 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'paul'},
 				{word: 'scott'},
 				{word: 'eric'},
-				{word: 'greg'}
+				{word: 'greg'},
+				{word: 'kevin'},
+				{word: 'steve'},
+				{word: 'john'},
+				{word: 'mark'},
+				{word: 'jason'},
+				{word: 'peter'},
+				{word: 'alan'},
+				{word: 'robert'},
+				{word: 'daniel'}
+				
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 		attribute2 : 
 			{
-			name : 'Women', //Attribute label
+			name : 'female', //Attribute label
 			title : {
 				media : {word : 'female'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
@@ -54,7 +64,16 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'meg'},
 				{word: 'marcia'},
 				{word: 'elaine'},
-				{word: 'gwen'}
+				{word: 'gwen'},
+				{word: 'sara'},
+				{word: 'diane'},
+			  	{word: 'karen'},
+				{word: 'laurel'},
+				{word: 'eva'},
+				{word: 'sandra'},
+				{word: 'ann'},
+				{word: 'susan'},
+				{word: 'kate'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
