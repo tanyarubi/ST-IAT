@@ -39,9 +39,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			},	
 			attribute1 : 
 			{
-				name : 'Men', //Attribute name to be used for feedback and logging
+				name : 'male', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : 'Male'}, //Name of the category presented in the task.
+					media : {word : 'male'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
@@ -51,16 +51,25 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'paul'},
 				{word: 'scott'},
 				{word: 'eric'},
-				{word: 'greg'}
+				{word: 'greg'},
+				{word: 'kevin'},
+				{word: 'steve'},
+				{word: 'john'},
+				{word: 'mark'},
+				{word: 'jason'},
+				{word: 'peter'},
+				{word: 'alan'},
+				{word: 'robert'},
+				{word: 'daniel'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
 			},
 			attribute2 : 
 			{
-				name : 'Women', //Attribute name to be used for feedback and logging
+				name : 'female', //Attribute name to be used for feedback and logging
 				title : {
-					media : {word : 'Female'}, //Name of the category presented in the task.
+					media : {word : 'female'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
@@ -70,7 +79,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'meg'},
 				{word: 'marcia'},
 				{word: 'elaine'},
-				{word: 'gwen'}
+				{word: 'gwen'},
+				{word: 'sara'},
+				{word: 'diane'},
+			  	{word: 'karen'},
+				{word: 'laurel'},
+				{word: 'eva'},
+				{word: 'sandra'},
+				{word: 'ann'},
+				{word: 'susan'},
+				{word: 'kate'}
+				
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
