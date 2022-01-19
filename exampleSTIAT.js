@@ -6,7 +6,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		    name : 'person', //Will appear in the data.
 		    title : {
 		      media : {word : 'person'}, //Name of the category presented in the task.
-		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+		      css : {color:'#000000','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
@@ -27,7 +27,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
     			{word : 'individual'}
 		    ], 
 		    //Stimulus css (style)
-		    css : {color:'#31b404','font-size':'3em'}
+		    css : {color:'#000000','font-size':'3em'}
 		  },	
 
   		attribute1 : 
@@ -35,7 +35,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			name : 'male', //Attribute label
 			title : {
 				media : {word :  "male"}, //Name of the category presented in the task.
-				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+				css : {color:'#000000','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli //male names
@@ -57,14 +57,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				
 			], 
 			//Can change color and size of the targets here.
-			css : {color:'#31b404','font-size':'3em'}
+			css : {color:'#000000','font-size':'3em'}
 			},
 		attribute2 : 
 			{
 			name : 'female', //Attribute label
 			title : {
 				media : {word : 'female'}, //Name of the category presented in the task.
-				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+				css : {color:'#000000','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli //female names
@@ -85,7 +85,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'kate'}
 			], 
 			//Can change color and size of the targets here.
-			css : {color:'#31b404','font-size':'3em'}
+			css : {color:'#000000','font-size':'3em'}
 			},
 
   base_url : {//Where are your images at?
