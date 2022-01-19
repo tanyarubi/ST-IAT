@@ -23,7 +23,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				name : 'person', //Category name to be used for feedback and logging.
 				title : {
 					media : {word : 'person'}, //Name of the category presented in the task.
-					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+					css : {color:'#000000','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
@@ -32,17 +32,26 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
     			{word : 'humanity'}, 
     			{word : 'person'}, 
     			{word : 'individual'}, 
-    			{word : 'human'}
+    			{word : 'human'},
+			{word : 'people'}, 
+    			{word : 'humanity'}, 
+    			{word : 'person'}, 
+    			{word : 'individual'}, 
+			{word : 'human'},
+			{word : 'people'}, 
+    			{word : 'humanity'}, 
+    			{word : 'person'}, 
+    			{word : 'individual'}
 				],
 				//Can change color and size of the targets here.
-				css : {color:'#31b404','font-size':'2em'}
+				css : {color:'#000000','font-size':'2em'}
 			},	
 			attribute1 : 
 			{
 				name : 'male', //Attribute name to be used for feedback and logging
 				title : {
 					media : {word : 'male'}, //Name of the category presented in the task.
-					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+					css : {color:'#000000','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 			media : [ //Stimuli //male names
@@ -70,7 +79,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				name : 'female', //Attribute name to be used for feedback and logging
 				title : {
 					media : {word : 'female'}, //Name of the category presented in the task.
-					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+					css : {color:'#000000','font-size':'2em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 			media : [ //Stimuli //female names
@@ -92,7 +101,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				
 				], 
 				//Can change color and size of the targets here.
-				css : {color:'#31b404','font-size':'2em'}
+				css : {color:'#000000','font-size':'2em'}
 			},	
 			trialsByBlock : 
 			[//Each object in this array defines a block
