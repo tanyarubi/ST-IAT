@@ -159,7 +159,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 
 			//If the switch parameter is 0 or smaller, we switch the side of the category every block. 
 			//If it is larger than 0, then we switch the category side only once, in the block specified in switchSideBlock.
-			switchSideBlock : 4, //By default, we switch on block 4 (i.e., after blocks 2 and 3 showed the first pairing condition).
+			switchSideBlock : 0.5, //By default, we switch on block 4 (i.e., after blocks 2 and 3 showed the first pairing condition).
 
 			base_url : {//Where are your images?
 				image : '/implicit/user/yba/pipexample/stiat/images/'
