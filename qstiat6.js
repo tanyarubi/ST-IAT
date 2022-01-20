@@ -179,7 +179,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			//Will appear at the bottom of the screen during trials.
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
 			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-			'Press the other key to continue.<p/>',
+			'Press the correct key to continue.<p/>',
 			
 			finalText: 'You have completed this task<br/><br/>Press SPACE to continue.', 
 
