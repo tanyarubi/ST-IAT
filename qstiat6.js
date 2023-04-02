@@ -69,7 +69,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'peter'},
 				{word: 'alan'},
 				{word: 'robert'},
-				{word: 'daniel'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
@@ -91,7 +90,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'gwen'},
 				{word: 'sara'},
 				{word: 'diane'},
-			  	{word: 'karen'},
 				{word: 'laurel'},
 				{word: 'eva'},
 				{word: 'sandra'},
@@ -119,33 +117,33 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 					instHTML : '', 
 					block : 2, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 15, 
+					sharedAttTrials : 10, 
+					categoryTrials : 10
 				}, 
 				{ 
 					instHTML : '', 
 					block : 3, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 15, 
+					sharedAttTrials : 10, 
+					categoryTrials : 10
 				}, 
 				{ 
 					instHTML : '', 
 					block : 4, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 15, 
+					sharedAttTrials : 10, 
+					categoryTrials : 10
 				}, 
 				{ 
 					instHTML : '', 
 					block : 5, 
 					miniBlocks : 2, 
-					singleAttTrials : 10, 
-					sharedAttTrials : 7, 
-					categoryTrials : 7
+					singleAttTrials : 15, 
+					sharedAttTrials : 10, 
+					categoryTrials : 10
 				}
 			],
 			//All blocks show attribute1 on the left and attribute2 on the right. 
